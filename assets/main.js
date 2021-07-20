@@ -25,8 +25,16 @@ const award = {
     easing: 'ease-in-out',
 };
 
+const hr = {
+    origin: 'left',
+    delay: 0,
+    distance: '200px',
+    easing: 'ease-out',
+};
+
 window.sr = ScrollReveal();
 
 sr.reveal('.animate', base);
 sr.reveal('.project', project);
 sr.reveal('.award', award);
+sr.reveal('.hr3', hr);

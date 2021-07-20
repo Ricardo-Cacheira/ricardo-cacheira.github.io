@@ -95,17 +95,23 @@ a:active {
     background-image: linear-gradient(to right, transparent, #27FB6B, transparent);
 }
 
+ion-item {
+    width: 100%;
+}
+
 .titleIcon {
-    position: relative;
-    top: 0.5rem;
+    display: inline-block;
+    vertical-align: middle;
     font-size: 2.5rem;
     color: var(--light-green);
+    margin-right: 0.5rem;
 }
 
 .pIcon {
     position: relative;
     top: 0.2rem;
     font-size: 1.2rem;
+    color: var(--light-green);
 }
 
 .highlight {
@@ -113,6 +119,8 @@ a:active {
 }
 
 h1[class="animate"] {
+    display: inline-block;
+    vertical-align: middle;
     color: var(--light-green);
 }
 
@@ -215,7 +223,7 @@ h1[class="animate"] {
 .video {
     width: 60%;
     height: 80%;
-    margin: auto 5% auto 0;
+    margin: auto 2% auto 0;
 }
 
 .game {
@@ -237,6 +245,21 @@ h1[class="animate"] {
     color: var(--dark-color);
 }
 
+#footer p {
+    text-align: center;
+    margin: 0 auto 1% auto;
+    font-size: 0.5rem;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    width: 20%;
+    margin: auto;
+}
+
 @media screen and (max-width:768px) {
     body,
     html {
@@ -251,11 +274,24 @@ h1[class="animate"] {
     #tog {
         font-size: 3rem;
     }
+    .awards {
+        width: 100%;
+        display: grid;
+    }
+    .video {
+        width: 100%;
+    }
     .inline {
         width: 100%;
         display: grid;
     }
-    #ToGTrailer {
+    .game {
         width: 100%;
+    }
+    #footer p {
+        font-size: 1rem;
+    }
+    .links {
+        width: 80%;
     }
 }
