@@ -38,3 +38,11 @@ sr.reveal('.animate', base);
 sr.reveal('.project', project);
 sr.reveal('.award', award);
 sr.reveal('.hr3', hr);
+
+var thisis = document.getElementById("wrapper");
+var tyty = document.getElementById("move");
+var witth = tyty.offsetWidth;
+
+
+
+thisis.style.paddingRight = witth + "px";

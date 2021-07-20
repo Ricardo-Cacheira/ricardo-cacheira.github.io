@@ -1,0 +1,33 @@
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 6rem;
+    font-family: League Spartan Variable;
+    font-variation-settings: "wght" 800;
+}
+
+#pablo {
+    height: 20vh;
+    width: auto;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 45vw;
+}
+
+@media screen and (max-width:768px) {
+    .error {
+        text-align: center;
+        margin: auto;
+        width: 90vw;
+    }
+    #pablo {
+        left: 30vw;
+    }
+}
