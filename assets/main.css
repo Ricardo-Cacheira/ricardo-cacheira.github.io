@@ -129,6 +129,7 @@ h1[class="animate"] {
 }
 
 .pill {
+    font: inherit;
     font-size: 2rem;
     background-color: var(--light-green);
     border: none;
@@ -137,7 +138,7 @@ h1[class="animate"] {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
+    margin-right: 10px;
     cursor: pointer;
     border-radius: 16px;
 }
@@ -178,6 +179,7 @@ h1[class="animate"] {
 }
 
 #about-me {
+    display: inherit;
     height: auto;
     min-height: 100% !important;
     text-align: justify;
