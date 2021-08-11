@@ -51,6 +51,11 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    margin-bottom: 2em;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 
 p {
@@ -93,6 +98,14 @@ a:active {
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, transparent, #27FB6B, transparent);
+}
+
+.email {
+    font: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--light-green);
 }
 
 ion-item {
@@ -324,6 +337,6 @@ h1[class="animate"] {
         width: 80%;
     }
     .pill {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
