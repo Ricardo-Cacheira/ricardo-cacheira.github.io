@@ -323,4 +323,7 @@ h1[class="animate"] {
     .links {
         width: 80%;
     }
+    .pill {
+        font-size: 1rem;
+    }
 }
