@@ -21,6 +21,7 @@
     <!-- ScrollReveal -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/main.css">
 </head>
 <!-- <i class="titleIcon material-icons"> </i> -->
@@ -29,7 +30,7 @@
     <header id="intro" class="section animate">
         <h1>Hi!</h1>
         <div id="introWrapper">
-            <img id="introImg" src="assets/img/pic.jpg" alt="Me!">
+            <img id="introImg" src="assets/img/pic.jpg" alt="Me!" draggable="false">
             <h2> I'm <span id="name">Ricardo Cacheira</span>, passionate gameplay programmer / game designer who loves to explore and experiment with game mechanics and design.</h2>
             <h3>Want to reach out? Send me a message at <a class="email" href="mailto:ricardo.cacheira@hotmail.com">ricardo.cacheira@hotmail.com</a></h3>
             <button id="resume" class="animate pill" onclick="window.open('assets/resume.pdf', '_blank');">Resume</button>
@@ -59,18 +60,146 @@
         <ion-item>
             <ion-icon class="titleIcon animate" name="desktop-outline"></ion-icon>
             <h1 class="animate">
-                Projects
+                Published Projects
             </h1>
         </ion-item>
+
+        <div class="animate work-section-container">
+            <div class="container">
+                <div class="work-section-contents">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-4">
+                            <div class="work-item-container">
+                                <a href="">
+                                    <div class="work-item">
+                                        <div class="work-item-bg"
+                                            style="background-image: url('assets/img/ARcadeSports.png'); left: -4em;">
+                                        </div>
+                                        <div class="work-item-title-container">
+                                            <div class="work-item-title">
+                                                <span>ARcade Sports</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="work-item-tags-container">
+                                    <div class="work-item-tag">
+                                        <span>C#</span>
+                                    </div>
+                                    <div class="work-item-tag">
+                                        <span>Unity</span>
+                                    </div>
+                                    <div class="work-item-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                        <span>AR</span>
+                                    </div>
+                                </div>
+                                <div class="work-item-desc-container">
+                                    <div class="work-item-desc">
+                                        <span>Location based AR multiplayer game</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4">
+                            <div class="work-item-container">
+                                <a href="">
+                                    <div class="work-item">
+                                        <div class="work-item-bg"
+                                            style="background-image: url('assets/img/GB_scARe.png');">
+                                        </div>
+        
+                                        <div class="work-item-title-container">
+                                            <div class="work-item-title">
+                                                <span>Ghostbusters: scARe</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="work-item-tags-container">
+                                    <div class="work-item-tag">
+                                        <span>C#</span>
+                                    </div>
+                                    <div class="work-item-tag">
+                                        <span>Unity</span>
+                                    </div>
+                                    <div class="work-item-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                        <span>AR</span>
+                                    </div>
+                                    <div class="work-item-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                        <span>movie tie-in</span>
+                                    </div>
+                                </div>
+                                <div class="work-item-desc-container">
+                                    <div class="work-item-desc">
+                                        <span>AR tie-in game for Ghostbusters: Afterlife</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-4">
+                            <div class="work-item-container">
+                                <a href="">
+                                    <div class="work-item">
+                                        <div class="work-item-bg"
+                                            style="background-image: url('assets/img/herois.png');">
+                                        </div>
+        
+                                        <div class="work-item-title-container">
+                                            <div class="work-item-title">
+                                                <span>Heróis da Fruta</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="work-item-tags-container">
+                                    <div class="work-item-tag">
+                                        <span>C#</span>
+                                    </div>
+                                    <div class="work-item-tag">
+                                        <span>Unity</span>
+                                    </div>
+                                    <div class="work-item-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                        <span>AR</span>
+                                    </div>
+                                    <div class="work-item-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                        <span>Kids</span>
+                                    </div>
+                                </div>
+                                <div class="work-item-desc-container">
+                                    <div class="work-item-desc">
+                                        <span>Treasure hunt game</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- <div class="animate" id="image-track" data-mouse-down-at="0" data-prev-percentage="0" data-percentage="0">
+            <img class="image"
+            src="https://images.unsplash.com/photo-1524781289445-ddf8f5695861?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1770&amp;q=80"
+            draggable="false">
+        </div> -->
+
+        <ion-item>
+            <ion-icon class="titleIcon animate" name="school-outline"></ion-icon>
+            <h1 class="animate">
+                Academic Projects
+            </h1>
+        </ion-item>
+
         <div class="section">
-            <a class="animate" href="https://igad.itch.io/temple-of-giants">
-                <img src="assets/img/banner.png" class="banner" alt="Temple of Giants">
+            <a class="animate" href="https://igad.itch.io/temple-of-giants" draggable="false">
+                <img src="assets/img/banner.png" class="banner" alt="Temple of Giants" draggable="false">
             </a>
             <p class="animate">
                 Temple of Giants was a project developed during my last semester which I took abroad at <a href="https://www.buas.nl/en/programmes/creative-media-and-game-technologies" class="highlight"> BUas</a>. It is the first project in which I worked
                 with a bigger team (16 people). I was the <span class="highlight">programming lead</span> for this project and worked alongside VAs and designers to make our <span class="highlight">final boss Medusa</span> a memorable experience.
                 <br> This project taught me a lot about working in a larger <span class="highlight">multi-diciplinary</span> team and the importance of team leads to facilitate <span class="highlight">communication</span> and project progress.
-                <br> This project was developed in <span class="highlight">eight weeks</span>.
+                <br> This project was developed in <span class="highlight">eight weeks</span> and can be downloaded on <a class="animate" href="https://igad.itch.io/temple-of-giants"><span class="highlight">itch.io</span></a>.
             </p>
 
 
@@ -121,8 +250,8 @@
 
         <div class="section project">
             <div class="inline">
-                <a href="https://cacheira.itch.io/addicat">
-                    <img class="game" src="assets/img/addicat.png" alt="Addicat">
+                <a href="https://cacheira.itch.io/addicat" draggable="false">
+                    <img class="game" src="assets/img/addicat.png" alt="Addicat" draggable="false">
                 </a>
 
                 <div>
@@ -143,8 +272,8 @@
         <div class="section project">
             <div class="inline">
 
-                <a href="https://flipdd.itch.io/kuto">
-                    <img class="game" src="assets/img/kuto.png" alt="Kuto">
+                <a href="https://flipdd.itch.io/kuto" draggable="false">
+                    <img class="game" src="assets/img/kuto.png" alt="Kuto" draggable="false">
                 </a>
 
                 <div>
@@ -166,8 +295,8 @@
         <div class="section project">
             <div class="inline">
 
-                <a href="https://cacheira.itch.io/neon">
-                    <img class="game" src="assets/img/neon.png" alt="NeON">
+                <a href="https://cacheira.itch.io/neon" draggable="false">
+                    <img class="game" src="assets/img/neon.png" alt="NeON" draggable="false">
                 </a>
 
                 <div>
@@ -190,8 +319,8 @@
         <div class="section project">
             <div class="inline">
 
-                <a href="https://johnelliott.itch.io/take-me-home">
-                    <img class="game" src="assets/img/tmh.png" alt="Take me Home">
+                <a href="https://johnelliott.itch.io/take-me-home" draggable="false">
+                    <img class="game" src="assets/img/tmh.png" alt="Take me Home" draggable="false">
                 </a>
 
                 <div>
@@ -206,7 +335,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <footer class="section" id="footer">
