@@ -445,8 +445,8 @@ margin-bottom: -5em;
 .work-item-title
 {
 	color: white;
-	font-weight: 100;
 	font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -462,8 +462,8 @@ margin-bottom: -5em;
 .work-item-desc
 {
 	color: var(--light-color);
-	font-weight: 100;
 	font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .work-item-contrib-cell
@@ -494,7 +494,6 @@ margin-bottom: -5em;
 	padding-left: 7px;
 	padding-right: 7px;
 	color: var(--dark-color);
-	font-weight: 100;
 	font-size: 14px;
 	float: left;
 	background-color: var(--light-green);
@@ -502,4 +501,5 @@ margin-bottom: -5em;
 	margin-top: 5px;
 	text-align: center;
 	border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
 }
