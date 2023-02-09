@@ -52,8 +52,8 @@
             I've worked for a year programming AR games at ONTOP Studios in Lisbon, after graduating from IADE's Games and Apps course with one
             semester abroad in the International Game Architecture & Design (IGAD) course at Breda University of Applied Sciences (BUas).
         </p>
-        <p> Ever since I was little I knew I wanted to work in games. Through my experience in university, I learned that I love designing games and iterating on those designs, even though I collected more experience as a gameplay programmer.</p>
-        <p> My peers value my initiative and ability to adapt. I'm quick to respond and actively contribute in group meetings discussing the current state of the project and potential risks down the line. </p>
+        <p class="animate"> Ever since I was little I knew I wanted to work in games. Through my experience in university, I learned that I love designing games and iterating on those designs, even though I collected more experience as a gameplay programmer.</p>
+        <p class="animate"> My peers value my initiative and ability to adapt. I'm quick to respond and actively contribute in group meetings discussing the current state of the project and potential risks down the line. </p>
     </div>
 
     <div id="projects" class="section">
@@ -64,116 +64,528 @@
             </h1>
         </ion-item>
 
-        <div class="animate work-section-container">
+        <div class="animate published-projects-container">
             <div class="container">
-                <div class="work-section-contents">
-                    <div class="row">
-                        <div class="col-sm-6 col-md-6 col-lg-4">
-                            <div class="work-item-container">
-                                <a href="https://www.youtube.com/watch?v=jQ7M-DoZjZI" target="_blank">
-                                    <div class="work-item">
-                                        <div class="work-item-bg"
-                                            style="background-image: url('assets/img/ARcadeSports.png'); left: -4em;">
-                                        </div>
-                                        <div class="work-item-title-container">
-                                            <div class="work-item-title">
-                                                <span>ARcade Sports</span>
-                                            </div>
-                                        </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="pp-container">
+                            <a onclick="openProject(1)">
+                                <div class="pp">
+                                    <div class="pp-img cover"
+                                        style="background-image: url('assets/img/ARcadeSports.png'); left: -4em;">
                                     </div>
-                                </a>
-                                <div class="work-item-tags-container">
-                                    <div class="work-item-tag">
-                                        <span>C#</span>
-                                    </div>
-                                    <div class="work-item-tag">
-                                        <span>Unity</span>
-                                    </div>
-                                    <div class="work-item-tag" style="background-color: #016FB9; color: antiquewhite;">
-                                        <span>AR</span>
+                                    <div class="pp-title-container">
+                                        <p>ARcade Sports</p>
                                     </div>
                                 </div>
-                                <div class="work-item-desc-container">
-                                    <div class="work-item-desc">
-                                        <span>Location based AR multiplayer game</span>
-                                    </div>
+                            </a>
+                            <div class="pp-tags-container">
+                                <div class="pp-tag">
+                                    <span>C#</span>
+                                </div>
+                                <div class="pp-tag">
+                                    <span>Unity</span>
+                                </div>
+                                <div class="pp-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                    <span>AR</span>
+                                </div>
+                            </div>
+                            <div class="pp-desc-container">
+                                <div class="pp-desc">
+                                    <span>Location based AR multiplayer game</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-4">
-                            <div class="work-item-container">
-                                <a href="https://onelink.to/478xbj" target="_blank">
-                                    <div class="work-item">
-                                        <div class="work-item-bg"
-                                            style="background-image: url('assets/img/GB_scARe.png');">
-                                        </div>
-        
-                                        <div class="work-item-title-container">
-                                            <div class="work-item-title">
-                                                <span>Ghostbusters: scARe</span>
-                                            </div>
-                                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="pp-container">
+                            <a onclick="openProject(2)">
+                                <div class="pp">
+                                    <div class="pp-img cover"
+                                        style="background-image: url('assets/img/GB_scARe.png');">
                                     </div>
-                                </a>
-                                <div class="work-item-tags-container">
-                                    <div class="work-item-tag">
-                                        <span>C#</span>
-                                    </div>
-                                    <div class="work-item-tag">
-                                        <span>Unity</span>
-                                    </div>
-                                    <div class="work-item-tag" style="background-color: #016FB9; color: antiquewhite;">
-                                        <span>AR</span>
-                                    </div>
-                                    <div class="work-item-tag" style="background-color: #016FB9; color: antiquewhite;">
-                                        <span>movie tie-in</span>
+    
+                                    <div class="pp-title-container">
+                                        <p>Ghostbusters: scARe</p>
                                     </div>
                                 </div>
-                                <div class="work-item-desc-container">
-                                    <div class="work-item-desc">
-                                        <span>AR tie-in game for Ghostbusters: Afterlife</span>
-                                    </div>
+                            </a>
+                            <div class="pp-tags-container">
+                                <div class="pp-tag">
+                                    <span>C#</span>
+                                </div>
+                                <div class="pp-tag">
+                                    <span>Unity</span>
+                                </div>
+                                <div class="pp-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                    <span>AR</span>
+                                </div>
+                                <div class="pp-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                    <span>movie tie-in</span>
+                                </div>
+                            </div>
+                            <div class="pp-desc-container">
+                                <div class="pp-desc">
+                                    <span>AR tie-in game for Ghostbusters: Afterlife</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-4">
-                            <div class="work-item-container">
-                                <a href="https://www.ontopstudios.com/projects/#comp-l2ud1qj3" target="_blank">
-                                    <div class="work-item">
-                                        <div class="work-item-bg"
-                                            style="background-image: url('assets/img/herois.png');">
-                                        </div>
-        
-                                        <div class="work-item-title-container">
-                                            <div class="work-item-title">
-                                                <span>Heróis da Fruta</span>
-                                            </div>
-                                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="pp-container">
+                            <a onclick="openProject(3)">
+                                <div class="pp">
+                                    <div class="pp-img cover"
+                                        style="background-image: url('assets/img/herois.png');">
                                     </div>
-                                </a>
-                                <div class="work-item-tags-container">
-                                    <div class="work-item-tag">
-                                        <span>C#</span>
-                                    </div>
-                                    <div class="work-item-tag">
-                                        <span>Unity</span>
-                                    </div>
-                                    <div class="work-item-tag" style="background-color: #016FB9; color: antiquewhite;">
-                                        <span>AR</span>
-                                    </div>
-                                    <div class="work-item-tag" style="background-color: #016FB9; color: antiquewhite;">
-                                        <span>Kids</span>
+    
+                                    <div class="pp-title-container">
+                                        <p>Heróis da Fruta</p>
                                     </div>
                                 </div>
-                                <div class="work-item-desc-container">
-                                    <div class="work-item-desc">
-                                        <span>Card collecting treasure hunt game</span>
-                                    </div>
+                            </a>
+                            <div class="pp-tags-container">
+                                <div class="pp-tag">
+                                    <span>C#</span>
+                                </div>
+                                <div class="pp-tag">
+                                    <span>Unity</span>
+                                </div>
+                                <div class="pp-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                    <span>AR</span>
+                                </div>
+                                <div class="pp-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                    <span>Kids</span>
+                                </div>
+                            </div>
+                            <div class="pp-desc-container">
+                                <div class="pp-desc">
+                                    <span>Card collecting treasure hunt game</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        
+        <div id="fade" class="hidden"> <!-- onclick="closeProject()" -->
+            <div id="project1" class="overlay hidden">
+                <div onclick="closeProject()" class="close-button">
+                    <ion-item>
+                        <ion-icon id="closeIcon" class="white" name="close-outline"></ion-icon>
+                    </ion-item>
+                </div>
+
+                <table style="height: 100%;">
+                    <tbody>
+                    <tr>
+                    <td class="td-text">
+                        <h5>ARcade Sports</h5> 
+                        <div class="pp-tags-container2">
+                            <div class="pp-tag">
+                                <span>C#</span>
+                            </div>
+                            <div class="pp-tag">
+                                <span>Unity</span>
+                            </div>
+                            <div class="pp-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                <span>AR</span>
+                            </div>
+                        </div>
+                        <p>
+                            ARcade Sports is a location-based AR multiplayer game, where up to four players team up to defeat on of the many bosses, targeting their weakspots.
+                            <br><br>
+                            The game has a Companion App that serves as the player interface with the game outside of the arena. In it players can buy tickets to use at the arena, look at their progress and leaderboards, and redeem prizes with in-game currency.
+                        </p>
+                        <div style="display: flex;">
+                            <h4>Companion App</h4> <h4>Game Application</h4>
+                        </div>
+
+                        <div style="display: flex;">
+                            <ul style="width: 50%;">
+                                <li>
+                                    <ion-item>
+                                            <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                            UI implementation
+                                    </ion-item>
+                                </li>
+                                <li>
+                                    <ion-item>
+                                            <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                            Map features
+                                    </ion-item>
+                                </li>
+                                <li>
+                                    <ion-item>
+                                            <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                            Shop features
+                                    </ion-item>
+                                </li>
+                                <li>
+                                    <ion-item>
+                                            <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                            Leaderboards (Individual and Teams)
+                                    </ion-item>
+                                </li>
+                                <li>
+                                    <ion-item>
+                                            <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                            Game Pages
+                                    </ion-item>
+                                </li>
+                                <li>
+                                    <ion-item>
+                                            <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                            Trophies menu and display
+                                    </ion-item>
+                                </li>
+                                <li>
+                                    <ion-item>
+                                            <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                            Player profile page
+                                    </ion-item>
+                                </li>
+                                <li>
+                                    <ion-item>
+                                            <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                            Backend functionalities (Node.js)
+                                    </ion-item>
+                                </li>
+                                <li>
+                                    <ion-item>
+                                            <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                            Boss splash-art modelling
+                                    </ion-item>
+                                </li>
+                            </ul>
+                            <ul style="width: 50%;">
+                                <li>
+                                    <ion-item>
+                                            <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                            Menu UI implementation
+                                    </ion-item>
+                                </li>
+                                <li>
+                                    <ion-item>
+                                            <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                            Enemy behaviour updates and changes
+                                    </ion-item>
+                                </li>
+                                <li>
+                                    <ion-item>
+                                            <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                            Connectivity with Companion App
+                                    </ion-item>
+                                </li>
+                                <li>
+                                    <ion-item>
+                                            <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                            General bug fixing
+                                    </ion-item>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <table class="mtd-video" style="width: 100%; height: 100%;">
+                            <tbody>
+                            <tr>
+                            <td style="height: 30%;">
+                                <div class="pp-video">
+                                    <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/jQ7M-DoZjZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </td>
+                            </tr>
+                            <tr style="text-align: center; vertical-align: top;">
+                            <td style="padding-left: 7.5%;">
+                                <a href="https://play.google.com/store/apps/details?id=com.ontop.arcadesports" target="_blank">
+                                    <img src="./assets/img/GooglePlay.png" alt="Google">
+                                </a>
+                                <a href="https://apps.apple.com/pt/app/arcade-sports/id1618252864" target="_blank">
+                                    <img src="./assets/img/Appstore.png" alt="Google"></td>
+                                </a>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="td-video">
+                      <table style="width: 100%; height: 100%;">
+                        <tbody>
+                        <tr>
+                        <td style="height: 70%;">
+                            <div class="pp-video">
+                                <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/jQ7M-DoZjZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </td>
+                        </tr>
+                        <tr style="text-align: center; vertical-align: top;">
+                        <td>
+                            <a href="https://play.google.com/store/apps/details?id=com.ontop.arcadesports" target="_blank">
+                                <img src="./assets/img/GooglePlay.png" alt="Google">
+                            </a>
+                            <a href="https://apps.apple.com/pt/app/arcade-sports/id1618252864" target="_blank">
+                                <img src="./assets/img/Appstore.png" alt="Google"></td>
+                            </a>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+            <div id="project2" class="overlay hidden">
+                <div onclick="closeProject()" class="close-button">
+                    <ion-item>
+                        <ion-icon id="closeIcon" class="white" name="close-outline"></ion-icon>
+                    </ion-item>
+                </div>
+
+                <table style="height: 100%;">
+                    <tbody>
+                    <tr>
+                    <td class="td-text">
+                        <h5>Ghostbusters: scARe</h5> 
+                        <div class="pp-tags-container2">
+                            <div class="pp-tag">
+                                <span>C#</span>
+                            </div>
+                            <div class="pp-tag">
+                                <span>Unity</span>
+                            </div>
+                            <div class="pp-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                <span>AR</span>
+                            </div>
+                            <div class="pp-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                <span>movie tie-in</span>
+                            </div>
+                        </div>
+                        <p>
+                            Ghostbusters: scARe is a tie-in game for the movie <i>Ghostbusters: Afterlife</i>. It features 8 different levels, each including an immersive AR puzzle and a ghost battle. 
+                            <br><br>
+                            Each ghost battle is unique due to the characteristics of each ghost, some turn invisible, some summon a shield to protect them.
+                            <br><br>
+                            Fight your way up to defeat Gozer and save Summervile alongside the cast from the movie.
+                        </p>
+                        <div style="display: flex;">
+                            <h4>Contributions</h4>
+                        </div>
+                        <ul style="width: 50%; display: table-cell;">
+                            <li>
+                                <ion-item>
+                                        <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                        Audio (Dev tools, implementation on menus, ghosts and puzzles)
+                                </ion-item>
+                            </li>
+                            <li>
+                                <ion-item>
+                                        <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                        Menu UI
+                                </ion-item>
+                            </li>
+                            <li>
+                                <ion-item>
+                                        <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                        Game HUD elements (e.g. Mini-Pufts battle meter)
+                                </ion-item>
+                            </li>
+                            <li>
+                                <ion-item>
+                                        <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                        Ghosts behaviour tweaks
+                                </ion-item>
+                            </li>
+                            <li>
+                                <ion-item>
+                                        <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                        General QA Bugfixing
+                                </ion-item>
+                            </li>
+                        </ul>
+                        
+                        <table class="mtd-video" style="width: 100%; height: 100%;">
+                            <tbody>
+                            <tr>
+                            <td style="height: 30%;">
+                                <div class="pp-video">
+                                    <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/VWw9yaaJhCI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </td>
+                            </tr>
+                            <tr style="text-align: center; vertical-align: top;">
+                            <td style="padding-left: 7.5%;">
+                                <a href="https://play.google.com/store/apps/details?id=com.imprezario.gbal" target="_blank">
+                                    <img src="./assets/img/GooglePlay.png" alt="Google">
+                                </a>
+                                <a href="https://apps.apple.com/us/app/ghostbusters-afterlife-scare/id1564377257" target="_blank">
+                                    <img src="./assets/img/Appstore.png" alt="Google"></td>
+                                </a>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="td-video">
+                      <table style="width: 100%; height: 100%;">
+                        <tbody>
+                        <tr>
+                        <td style="height: 70%;">
+                            <div class="pp-video">
+                                <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/VWw9yaaJhCI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </td>
+                        </tr>
+                        <tr style="text-align: center; vertical-align: top;">
+                        <td>
+                            <a href="https://play.google.com/store/apps/details?id=com.imprezario.gbal" target="_blank">
+                                <img src="./assets/img/GooglePlay.png" alt="Google">
+                            </a>
+                            <a href="https://apps.apple.com/us/app/ghostbusters-afterlife-scare/id1564377257" target="_blank">
+                                <img src="./assets/img/Appstore.png" alt="Google"></td>
+                            </a>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    </tr>
+                    </tbody>
+                </table>
+    
+                <!-- https://onelink.to/478xbj -->
+            </div>
+    
+            <div id="project3" class="overlay hidden">
+                <div onclick="closeProject()" class="close-button">
+                    <ion-item>
+                        <ion-icon id="closeIcon" class="white" name="close-outline"></ion-icon>
+                    </ion-item>
+                </div>
+
+                <table style="height: 100%;">
+                    <tbody>
+                    <tr>
+                    <td class="td-text">
+                        <h5>Heróis da Fruta</h5> 
+                        <div class="pp-tags-container2">
+                            <div class="pp-tag">
+                                <span>C#</span>
+                            </div>
+                            <div class="pp-tag">
+                                <span>Unity</span>
+                            </div>
+                            <div class="pp-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                <span>AR</span>
+                            </div>
+                            <div class="pp-tag" style="background-color: #016FB9; color: antiquewhite;">
+                                <span>Kids</span>
+                            </div>
+                        </div>
+                        <p>
+                            ARcade Sports is a location-based AR multiplayer game, where up to four players team up to defeat on of the many bosses, targeting their weakspots.
+                            <br><br>
+                            The game has a Companion App that serves as the player interface with the game outside of the arena. In it players can buy tickets to use at the arena, look at their progress and leaderboards, and redeem prizes with in-game currency.
+                        </p>
+                        <div style="display: flex;">
+                            <h4>Contributions</h4>
+                        </div>
+                        <ul style="width: 50%; display: table-cell;">
+                            <li>
+                                <ion-item>
+                                        <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                        Pack slicing minigame
+                                </ion-item>
+                            </li>
+                            <li>
+                                <ion-item>
+                                        <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                        Menus UI and animations
+                                </ion-item>
+                            </li>
+                            <li>
+                                <ion-item>
+                                        <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                        Seasonal Missions
+                                </ion-item>
+                            </li>
+                            <li>
+                                <ion-item>
+                                        <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                        Card collection menu
+                                </ion-item>
+                            </li>
+                            <li>
+                                <ion-item>
+                                        <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                        Game Pages
+                                </ion-item>
+                            </li>
+                            <li>
+                                <ion-item>
+                                        <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                        Trophies menu and display
+                                </ion-item>
+                            </li>
+                            <li>
+                                <ion-item>
+                                        <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                        Backend functionalities (Score validation, leaderboards, active markers management, etc.)
+                                </ion-item>
+                            </li>
+                            <li>
+                                <ion-item>
+                                        <ion-icon class="bullet" name="caret-forward-circle-sharp"></ion-icon>
+                                        Post launch updates
+                                </ion-item>
+                            </li>
+                        </ul>
+                        <table class="mtd-video" style="width: 100%; height: 100%;">
+                            <tbody>
+                            <tr>
+                            <td style="height: 30%;">
+                              <div class="pp-video">
+                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/MordNKWHejA?start=475&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                              </div>
+                            </td>
+                            </tr>
+                            <tr style="text-align: center; vertical-align: top;">
+                            <td style="padding-left: 7.5%;">
+                              <a href="https://play.google.com/store/apps/details?id=com.ontop.heroisfruta&hl=en_US&gl=US" target="_blank">
+                                  <img src="./assets/img/GooglePlay.png" alt="Google">
+                              </a>
+                              <a href="https://apps.apple.com/pt/app/her%C3%B3is-da-fruta/id1590865320?l=en" target="_blank">
+                                  <img src="./assets/img/Appstore.png" alt="Google"></td>
+                              </a>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td class="td-video">
+                      <table style="width: 100%; height: 100%;">
+                      <tbody>
+                      <tr>
+                      <td style="height: 70%;">
+                        <div class="pp-video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MordNKWHejA?start=475&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </td>
+                      </tr>
+                      <tr style="text-align: center; vertical-align: top;">
+                      <td>
+                        <a href="https://play.google.com/store/apps/details?id=com.ontop.heroisfruta&hl=en_US&gl=US" target="_blank">
+                            <img src="./assets/img/GooglePlay.png" alt="Google">
+                        </a>
+                        <a href="https://apps.apple.com/pt/app/her%C3%B3is-da-fruta/id1590865320?l=en" target="_blank">
+                            <img src="./assets/img/Appstore.png" alt="Google"></td>
+                        </a>
+                      </tr>
+                      </tbody>
+                      </table>
+                    </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <!-- https://www.ontopstudios.com/projects/#comp-l2ud1qj3 -->
             </div>
         </div>
         
