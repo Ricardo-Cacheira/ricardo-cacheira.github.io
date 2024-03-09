@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+    <title>Iberia 2099</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="404.css">
+
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    </style>
+</head>
+
+<body>
+<div id="map"></div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiY2FjaGVpcmEiLCJhIjoiY2psOTl4cTQ3M2ZqYzNrcXJsNDJ6amU1aSJ9.W4NYRGpWJ83Yg2EBxkOu9Q';
+    // Set bounds to San Francisco, California.
+    const bounds = [
+        [-9.900178, 37.893704], // Southwest coordinates
+        [-8.412124, 39.080746] // Northeast coordinates
+    ];
+
+    const map = new mapboxgl.Map({
+        container: 'map', // container ID
+        // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+        style: 'mapbox://styles/cacheira/cjl9ag74r28cf2rp77ntmlrih', // style URL
+        center: [-9.133727, 38.707567], // starting position
+        zoom: 12, // starting zoom
+        maxBounds: bounds // Set the map's geographical boundaries.
+    });
+</script>
+
+</body>
+</html>
